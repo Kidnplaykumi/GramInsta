@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		93D8F9B9FCB87DBCBC5586C2 /* Pods_GramInsta.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E918DCAA5AD19A11DCEA2CBA /* Pods_GramInsta.framework */; };
+		BDC92D0EB436B07F037B2A26 /* Pods_GramInstaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 682B26895ADFA49A8C02B925 /* Pods_GramInstaUITests.framework */; };
 		E0C36B9B203B767F00DCB40B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0C36B9A203B767F00DCB40B /* AppDelegate.swift */; };
 		E0C36B9D203B767F00DCB40B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0C36B9C203B767F00DCB40B /* ViewController.swift */; };
 		E0C36BA0203B767F00DCB40B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0C36B9E203B767F00DCB40B /* Main.storyboard */; };
@@ -14,6 +16,8 @@
 		E0C36BA5203B767F00DCB40B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0C36BA3203B767F00DCB40B /* LaunchScreen.storyboard */; };
 		E0C36BB0203B767F00DCB40B /* GramInstaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0C36BAF203B767F00DCB40B /* GramInstaTests.swift */; };
 		E0C36BBB203B767F00DCB40B /* GramInstaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0C36BBA203B767F00DCB40B /* GramInstaUITests.swift */; };
+		E0C36BC9203B8DC800DCB40B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0C36BC8203B8DC800DCB40B /* LoginViewController.swift */; };
+		E8C4E770F13018AFED77480C /* Pods_GramInstaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 642A368AC8BDEABEB96C98B5 /* Pods_GramInstaTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1D26A4773B5C2614A1B0AE43 /* Pods-GramInstaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GramInstaTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GramInstaTests/Pods-GramInstaTests.release.xcconfig"; sourceTree = "<group>"; };
+		27BA0D093D037ABE401004AA /* Pods-GramInstaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GramInstaTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GramInstaTests/Pods-GramInstaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		642A368AC8BDEABEB96C98B5 /* Pods_GramInstaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GramInstaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		682B26895ADFA49A8C02B925 /* Pods_GramInstaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GramInstaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBFBDC7C646D0BDAD63E89B4 /* Pods-GramInstaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GramInstaUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GramInstaUITests/Pods-GramInstaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D358E681E47B6E5CEDE3B3AA /* Pods-GramInstaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GramInstaUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GramInstaUITests/Pods-GramInstaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E065FFF808EEF94BE047B0EB /* Pods-GramInsta.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GramInsta.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GramInsta/Pods-GramInsta.debug.xcconfig"; sourceTree = "<group>"; };
 		E0C36B97203B767F00DCB40B /* GramInsta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GramInsta.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0C36B9A203B767F00DCB40B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E0C36B9C203B767F00DCB40B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +58,9 @@
 		E0C36BB6203B767F00DCB40B /* GramInstaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GramInstaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0C36BBA203B767F00DCB40B /* GramInstaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GramInstaUITests.swift; sourceTree = "<group>"; };
 		E0C36BBC203B767F00DCB40B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0C36BC8203B8DC800DCB40B /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		E918DCAA5AD19A11DCEA2CBA /* Pods_GramInsta.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GramInsta.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F742C107A2418D93E324542D /* Pods-GramInsta.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GramInsta.release.xcconfig"; path = "Pods/Target Support Files/Pods-GramInsta/Pods-GramInsta.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93D8F9B9FCB87DBCBC5586C2 /* Pods_GramInsta.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8C4E770F13018AFED77480C /* Pods_GramInstaTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +84,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDC92D0EB436B07F037B2A26 /* Pods_GramInstaUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8E0830FCE96145DF3BA8E3E0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E065FFF808EEF94BE047B0EB /* Pods-GramInsta.debug.xcconfig */,
+				F742C107A2418D93E324542D /* Pods-GramInsta.release.xcconfig */,
+				27BA0D093D037ABE401004AA /* Pods-GramInstaTests.debug.xcconfig */,
+				1D26A4773B5C2614A1B0AE43 /* Pods-GramInstaTests.release.xcconfig */,
+				BBFBDC7C646D0BDAD63E89B4 /* Pods-GramInstaUITests.debug.xcconfig */,
+				D358E681E47B6E5CEDE3B3AA /* Pods-GramInstaUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		E0C36B8E203B767E00DCB40B = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +111,8 @@
 				E0C36BAE203B767F00DCB40B /* GramInstaTests */,
 				E0C36BB9203B767F00DCB40B /* GramInstaUITests */,
 				E0C36B98203B767F00DCB40B /* Products */,
+				8E0830FCE96145DF3BA8E3E0 /* Pods */,
+				FAF71DC2D94BC09862AF38D4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +131,7 @@
 			children = (
 				E0C36B9A203B767F00DCB40B /* AppDelegate.swift */,
 				E0C36B9C203B767F00DCB40B /* ViewController.swift */,
+				E0C36BC8203B8DC800DCB40B /* LoginViewController.swift */,
 				E0C36B9E203B767F00DCB40B /* Main.storyboard */,
 				E0C36BA1203B767F00DCB40B /* Assets.xcassets */,
 				E0C36BA3203B767F00DCB40B /* LaunchScreen.storyboard */,
@@ -125,6 +158,16 @@
 			path = GramInstaUITests;
 			sourceTree = "<group>";
 		};
+		FAF71DC2D94BC09862AF38D4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E918DCAA5AD19A11DCEA2CBA /* Pods_GramInsta.framework */,
+				642A368AC8BDEABEB96C98B5 /* Pods_GramInstaTests.framework */,
+				682B26895ADFA49A8C02B925 /* Pods_GramInstaUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +175,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E0C36BBF203B767F00DCB40B /* Build configuration list for PBXNativeTarget "GramInsta" */;
 			buildPhases = (
+				FABAFA5D7CB790F0B4A560D8 /* [CP] Check Pods Manifest.lock */,
 				E0C36B93203B767E00DCB40B /* Sources */,
 				E0C36B94203B767E00DCB40B /* Frameworks */,
 				E0C36B95203B767E00DCB40B /* Resources */,
+				F72CC1D83291EDAB2E654D83 /* [CP] Embed Pods Frameworks */,
+				754EE220A0E119C48E21482B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +195,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E0C36BC2203B767F00DCB40B /* Build configuration list for PBXNativeTarget "GramInstaTests" */;
 			buildPhases = (
+				E938EA7975770684366B583B /* [CP] Check Pods Manifest.lock */,
 				E0C36BA7203B767F00DCB40B /* Sources */,
 				E0C36BA8203B767F00DCB40B /* Frameworks */,
 				E0C36BA9203B767F00DCB40B /* Resources */,
+				3E4D54D2692EC54CECE0D41F /* [CP] Embed Pods Frameworks */,
+				50A69853AC5CADAC6FCDE9B2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +216,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E0C36BC5203B767F00DCB40B /* Build configuration list for PBXNativeTarget "GramInstaUITests" */;
 			buildPhases = (
+				99FD62BCD668E99E90539FB8 /* [CP] Check Pods Manifest.lock */,
 				E0C36BB2203B767F00DCB40B /* Sources */,
 				E0C36BB3203B767F00DCB40B /* Frameworks */,
 				E0C36BB4203B767F00DCB40B /* Resources */,
+				DF2ACC0F2C45D0B54F4B49D7 /* [CP] Embed Pods Frameworks */,
+				83960D916C79EAE5D1C59A12 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -254,11 +306,164 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3E4D54D2692EC54CECE0D41F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GramInstaTests/Pods-GramInstaTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		50A69853AC5CADAC6FCDE9B2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GramInstaTests/Pods-GramInstaTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		754EE220A0E119C48E21482B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GramInsta/Pods-GramInsta-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		83960D916C79EAE5D1C59A12 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GramInstaUITests/Pods-GramInstaUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		99FD62BCD668E99E90539FB8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GramInstaUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DF2ACC0F2C45D0B54F4B49D7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GramInstaUITests/Pods-GramInstaUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E938EA7975770684366B583B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GramInstaTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F72CC1D83291EDAB2E654D83 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-GramInsta/Pods-GramInsta-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/Parse/Parse.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Parse.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GramInsta/Pods-GramInsta-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FABAFA5D7CB790F0B4A560D8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GramInsta-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E0C36B93203B767E00DCB40B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0C36BC9203B8DC800DCB40B /* LoginViewController.swift in Sources */,
 				E0C36B9D203B767F00DCB40B /* ViewController.swift in Sources */,
 				E0C36B9B203B767F00DCB40B /* AppDelegate.swift in Sources */,
 			);
@@ -424,6 +629,7 @@
 		};
 		E0C36BC0203B767F00DCB40B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E065FFF808EEF94BE047B0EB /* Pods-GramInsta.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -439,6 +645,7 @@
 		};
 		E0C36BC1203B767F00DCB40B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F742C107A2418D93E324542D /* Pods-GramInsta.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -454,6 +661,7 @@
 		};
 		E0C36BC3203B767F00DCB40B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27BA0D093D037ABE401004AA /* Pods-GramInstaTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -471,6 +679,7 @@
 		};
 		E0C36BC4203B767F00DCB40B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D26A4773B5C2614A1B0AE43 /* Pods-GramInstaTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -488,6 +697,7 @@
 		};
 		E0C36BC6203B767F00DCB40B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBFBDC7C646D0BDAD63E89B4 /* Pods-GramInstaUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -504,6 +714,7 @@
 		};
 		E0C36BC7203B767F00DCB40B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D358E681E47B6E5CEDE3B3AA /* Pods-GramInstaUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
