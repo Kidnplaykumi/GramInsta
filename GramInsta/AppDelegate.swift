@@ -21,7 +21,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             with: ParseClientConfiguration(block: { (configuration: ParseMutableClientConfiguration) -> Void in
                 configuration.applicationId = "GramInsta"
                 configuration.clientKey = "Atdy4728"
-                configuration.server = " https://young-castle-82138.herokuapp.com/"
+                configuration.server = "https://young-castle-82138.herokuapp.com/parse"
             })
         )
         return true
